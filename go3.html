@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고3반 메뉴</title>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .back-btn {
+            margin-bottom: 20px;
+            cursor: pointer;
+            color: #666;
+            text-decoration: underline;
+        }
+        h1 {
+            margin-bottom: 30px;
+            color: #222;
+        }
+        /* 카드가 여러 개 생길 것을 대비해 감싸는 컨테이너 추가 */
+        .card-container {
+            display: flex;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            width: 280px;
+            padding: 40px 20px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            border-top: 6px solid #2ecc71;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h2 {
+            margin: 0;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="back-btn" onclick="history.back()">← 이전 화면으로</div>
+
+    <h1></h1>
+
+    <div class="card-container">
+        <div class="card" onclick="window.location.href='approach_go3.html'">
+            <h2>어프로치</h2>
+            
+        </div>
+        
+        </div>
+
+</body>
+</html>

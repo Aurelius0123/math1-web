@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            gap: 30px;
+        }
+        .card {
+            background: white;
+            width: 260px;
+            padding: 50px 20px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+        }
+        .card h2 {
+            margin: 0;
+            color: #222;
+            font-size: 26px;
+        }
+        .card p {
+            color: #777;
+            margin-top: 12px;
+            font-size: 14px;
+        }
+        .go3 { border-top: 6px solid #3498db; }
+        .jaesu { border-top: 6px solid #e74c3c; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card go3" onclick="window.location.href='go3.html'">
+            <h2>고3반</h2>
+            
+        </div>
+
+        <div class="card jaesu" onclick="window.location.href='approach_jaesu.html'">
+            <h2>재수반</h2>
+           
+        </div>
+    </div>
+
+</body>
+</html>

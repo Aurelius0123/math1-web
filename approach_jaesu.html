@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>재수반 - 강의 목록</title>
+    <style>
+        body { font-family: 'Noto Sans KR', sans-serif; background-color: #f8f9fa; margin: 0; padding: 50px 20px; display: flex; flex-direction: column; align-items: center; }
+        .back-btn { align-self: flex-start; max-width: 800px; margin: 0 auto 20px auto; width: 100%; cursor: pointer; color: #666; text-decoration: underline; }
+        .lecture-container { background: white; width: 100%; max-width: 800px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); padding: 20px; box-sizing: border-box; }
+        h1 { font-size: 24px; color: #222; margin-bottom: 25px; border-bottom: 2px solid #e74c3c; padding-bottom: 15px; } /* 재수반은 빨간색 포인트 */
+        .lecture-item { display: flex; justify-content: space-between; align-items: center; padding: 18px 10px; border-bottom: 1px solid #eee; }
+        .lecture-item:last-child { border-bottom: none; }
+        .lecture-info { display: flex; flex-direction: column; gap: 5px; }
+        .lecture-title { font-size: 16px; font-weight: bold; color: #333; }
+        .lecture-meta { font-size: 13px; color: #888; }
+        .btn-play { background-color: #e74c3c; color: white; text-decoration: none; padding: 8px 16px; font-size: 14px; border-radius: 4px; font-weight: 500; transition: background-color 0.2s; }
+        .btn-play:hover { background-color: #c0392b; }
+    </style>
+</head>
+<body>
+
+    <div class="back-btn" onclick="history.back()">← 뒤로가기</div>
+
+    <div class="lecture-container">
+        <h1>강의 리스트</h1>
+
+        <div class="lecture-item">
+            <div class="lecture-info">
+                <span class="lecture-title">[해인수 미적 적분법 - 3번, 4번, 5번, 6번]</span>
+            </div>
+            <a href="https://youtu.be/-NColbzSAIM?si=Tsk3PJTiFzSl1Mgi" target="_blank" class="btn-play">영상 보기</a>
+        </div>
+
+        <div class="lecture-item">
+            <div class="lecture-info">
+                <span class="lecture-title">[해인수 미적 적분법 - 2번]</span>
+            </div>
+            <a href="https://youtu.be/HIBg0IAeSIo?si=j5dTHz1NQnPrmZqO" target="_blank" class="btn-play">영상 보기</a>
+        </div>
+
+        <div class="lecture-item">
+            <div class="lecture-info">
+                <span class="lecture-title">[해인수 미적 미분법 - 71번, 72번]</span>
+            </div>
+            <a href="https://youtu.be/72I8NuKIl_8?si=cJMPQPCJdjAe_Pgs" target="_blank" class="btn-play">영상 보기</a>
+        </div>
+
+        <div class="lecture-item">
+            <div class="lecture-info">
+                <span class="lecture-title">[브릿지 5회 - 12번, 14번]</span>
+            </div>
+            <a href="https://youtu.be/UrxACAHLNYY?si=0U18brA_49ZbFqrx" target="_blank" class="btn-play">영상 보기</a>
+        </div>
+
+        <div class="lecture-item">
+            <div class="lecture-info">
+                <span class="lecture-title">[더프 5월 - 22번] & [브릿지 4회 - 14번]</span>
+            </div>
+            <a href="https://youtu.be/uF44ToBsU2I?si=EJ9xI_SmKyTOK7W9" target="_blank" class="btn-play">영상 보기</a>
+        </div>
+
+        <div class="lecture-item">
+            <div class="lecture-info">
+                <span class="lecture-title">[더프 5월 - 14번, 15번, 21번]</span>
+            </div>
+            <a href="https://youtu.be/lk3fOnd8jNk?si=ywWBKJGsHXEoypIq" target="_blank" class="btn-play">영상 보기</a>
+        </div>
+
+        <div class="lecture-item">
+            <div class="lecture-info">
+                <span class="lecture-title">[더프 5월 - 29번, 30번] & [해인수 미적 - 54번, 60번]</span>
+            </div>
+            <a href="https://youtu.be/j4ZjiIMEyBw?si=ZRB   ZCrErtHgWLNZo " target="_blank" class="btn-play">영상 보기</a>
+        </div>  
+
+        <div class="lecture-item">
+            <div class="lecture-info">
+                <span class="lecture-title">[해인수 미적 - 65번, 66번, 67번, 69번]</span>
+            </div>
+            <a href="https://youtu.be/GuLah4YphTc?si=jvs-MUTr8MF7Mt6x" target="_blank" class="btn-play">영상 보기</a>
+        </div>
+    </div>
+
+</body>
+</html>
